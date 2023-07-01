@@ -18,7 +18,7 @@
 
 > файл `.pypirc`  
 
-``` bash
+```bash
 [distutils]
 index-servers = local
 [local]
@@ -35,6 +35,14 @@ password: *****
 ![Alt text](images/image-3.png)  
 
 - #### :five: Отправить ментору конфигурационный файл pip.conf, настроенный для работы с Artifactory в качестве репозитория (вместо стандартного pipy.org), и ссылку на Artifactory, развернутую на вашей машине. Интерфейс должен быть доступен из интернета.
+
+> настройки `pip.conf`
+
+```bash
+[global]
+index-url =
+http://****:****@158.160.111.92:8081/artifactory/api/pypi/pypi-local/simple
+```
 
 > файлы ставятся из прокси `jfrog`
 
