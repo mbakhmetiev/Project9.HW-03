@@ -6,13 +6,13 @@
 
 > `jfrog arifactory` установлен и запущен 
 
-![Alt text](image.png) 
+![Alt text](images/image.png) 
 
 - ### Настроить на Artifactory проксирование pip-репозитория pipy.org  
 
 > настройки артифактори  
 
-![Alt text](image-1.png)  
+![Alt text](images/image-1.png)  
 
 - ### Предоставить разработчикам репозиторий для публикации результатов разработки.  
 
@@ -28,17 +28,17 @@ password: *****
 ```
 > тестовая загрузка пакета
 
-![Alt text](image-2.png)
+![Alt text](images/image-2.png)
 
 > пакет доступен в репозитории  
 
-![Alt text](image-3.png)  
+![Alt text](images/image-3.png)  
 
 - ### Отправить ментору конфигурационный файл pip.conf, настроенный для работы с Artifactory в качестве репозитория (вместо стандартного pipy.org), и ссылку на Artifactory, развернутую на вашей машине. Интерфейс должен быть доступен из интернета.
 
 > файлы ставятся из прокси `jfrog`
 
-![Alt text](image-5.png)  
+![Alt text](images/image-5.png)  
 
 
 
