@@ -40,8 +40,7 @@ password: *****
 
 ```bash
 [global]
-index-url =
-http://****:****@158.160.111.92:8081/artifactory/api/pypi/pypi-local/simple
+index-url = http://****:****@158.160.111.92:8081/artifactory/api/pypi/pypi-local/simple
 ```
 
 > файлы ставятся из прокси `jfrog`
